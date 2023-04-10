@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    background-color: #9f63e8;
+}
+
+/* Main Styles */
+main {
+    width: 40%;
+    float: left;
+}
+
+main .pictures {
+    width: 15%;
+}
+
+table {
+    margin: 20px 60px 10px 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table td {
+    font-size: 19px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    height: 10vh;
+}
+
+/* Aside Styles */
+aside {
+    width: 60%;
+    float: right;
+}
+
+aside .pics {
+    padding-top: 20px;
+}
+
+aside .pictures {
+    width: 30%;
+}
+
+aside #pic1 {
+    width: 40%;
+    padding-right: 30px;
+}
+
+aside .imageDesc {
+    margin-top: 5px;
+    font-size: large;
+}
+
+
+/* Footer Styles */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 1690px) {
+    * {
+        overflow-y: scroll;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    #pic1, .imageDesc {
+        padding-left: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #pic1 {
+        padding-left: 50px;
+    }
+
+    .imageDesc {
+        display: inline;
+        padding-left: 60px;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lachlan Earle | Animation</title>
+    <meta name="description" content="A personal portfolio website">
+    <meta name="keywords" content="Portfolio, Lachlan Earle, Assignment 1, Earle, HTML, CSS">
+    <meta name="author" content="Lachlan Earle">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/animation.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class='sideBtn'><a href="../index.html">Home</a></li>
+                <li class='sideBtn'><a href="./aboutme.html">About Me</a></li>
+                <li class='sideBtn'><a href="./achievement.html">My Greatest Achievement</a></li>
+                <li class='sideBtn'><a href="./hometown.html">My Hometown</a></li>
+                <li class='sideBtn'><a href="./timetable.html">My Timetable</a></li>
+                <li class='sideBtn'><a href="./animation.html">Animation Page</a></li>
+                <li class="sideBtn"><a href="./end.html">End Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="animationImplementation">
+            <h1>Animation Implementation</h1>
+            <p id="implementText">In case it wasn't very obvious, I have in fact implemented an animation on the homepage in the
+                background.
+                To make it work, I gave the background a linear gradient that I found to look good and made the
+                background itself 300% in size. For the animation, I made the keyframes move the position of the
+                background from
+                top left to bottom right by adjusting the position by 50% increments. I used the <em>ease</em> attribute
+                to
+                make it smoothly move back and forth between the two corners, giving the illusion of a color shifting
+                background.
+            </p>
+            <button class="implementButton" onclick="window.location.href='../index.html'"><p>Go To Implementation</p></button>
+        </div>
+
+        <div id="otherAnimations">
+            <h1>Other Animation Examples</h1>
+            <table>
+                <tr>
+                    <td>
+                        <p>Hover Animation</p>
+                        <div id="hoverAnimation">Hover Over Me</div>
+                        <p><em>A bit boring but still counts</em></p>
+                    </td>
+                    <td>
+                        <p>Bouncy Animation</p>
+                        <div id="bouncyAnimation">&#127822;</div>
+                        <p><em>A bit more interesting</em></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Spinning Animation</p>
+                        <div id="rectSpin"><p id="rectText">:)</p></div>
+                        <p><em>Could be useful for a loading spinner (although it doesn't handle text very well)</em></p>
+                    </td>
+                    <td>
+                        <p>Spinning Coin Animation</p>
+                        <img id='coinImg' src="../images/coin.png" alt="$2 Coin Spinning">
+                        <p><em>Like it's a video game</em></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>Lachlan Earle (s104547200) &copy; 2023</p>
+    </footer>
+
+</body>

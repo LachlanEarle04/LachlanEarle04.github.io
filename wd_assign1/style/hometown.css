@@ -1,0 +1,61 @@
+/* Global Styles */
+* {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #5e70c8;
+}
+
+/* Main Styles */
+#leftSide {
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding-right: 10px;
+}
+
+#leftSide h1 {
+    font-size: 36px;
+}
+
+#rightSide {
+    width: 68%;
+    float: left;
+}
+
+#rightSide img {
+    width: 100%;
+}
+
+#rightSide p {
+    margin-top: 5px;
+}
+
+main h1 {
+    padding-left: 15px;
+}
+
+main ul {
+    padding-left: 15px;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 950px) {
+    #leftSide, #rightSide {
+        width: 100%;
+        float: none;
+    }
+
+    #rightSide {
+        padding-bottom: 70px;
+    }
+}

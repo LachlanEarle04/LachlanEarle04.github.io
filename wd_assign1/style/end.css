@@ -1,0 +1,33 @@
+/* Global Styles */
+* {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #5e2dc7;
+}
+
+/* Main Styles */
+main {
+    color: white;
+    text-align: center;
+}
+
+main p {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+main form {
+    padding-top: 30px;
+}
+
+main #submitBtn {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 460px) {
+    main form {
+        width: 49vh;
+    }
+}
